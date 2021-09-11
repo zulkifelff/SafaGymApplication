@@ -8,8 +8,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="744d3b4e-f2e8-411d-a556-8f192abe9b81" name="Changes" comment="Initial Commit">
+    <list default="true" id="744d3b4e-f2e8-411d-a556-8f192abe9b81" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vs/SafaGymApplication/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/SafaGymApplication/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/SafaGymApplication/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/login/login-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/login/login.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/startup-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/startup.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Forms Export.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Logo.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Logo/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Logo/Logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Logo/cropped-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/right_panel_image.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/right_panel_image/right_panel_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/right_panel_image/right_panel_image@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/woman-photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Videos/exercise.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SafaGymApplication.csproj.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SafaGymApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SafaGymApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,25 +63,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xGGZgkOxeslIVUrcZabLCzMSxn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498452" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Muhammad Zulkifel\source\repos\SafaGymApplication\ClientApp\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.SafaGymApplication">
@@ -82,6 +128,8 @@
       <option name="presentableId" value="Default" />
       <updated>1629974071623</updated>
       <workItem from="1629974089655" duration="2755000" />
+      <workItem from="1630831313600" duration="7184000" />
+      <workItem from="1631358455044" duration="2340000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1629974895916</created>
@@ -106,8 +154,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />

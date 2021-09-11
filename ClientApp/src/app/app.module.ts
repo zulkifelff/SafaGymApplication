@@ -22,10 +22,17 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
+    RouterModule.forRoot(
+      [
+        { path: '', component: HomeComponent, pathMatch: 'full' },
+        {
+          path: 'login',
+          loadChildren: () => import('./../app/login/login.module').then(m => m.LoginModule)
+        },
+        {
+          path: 'startup',
+          loadChildren: () => import('./../app/startup/startup.module').then(m => m.StartupModule)
+        }
     ])
   ],
   providers: [],
