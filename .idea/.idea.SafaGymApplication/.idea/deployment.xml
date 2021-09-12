@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ftp.codeaffiner.com" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ftp.codeaffiner.com">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/.gitignore" web="/" />
+            <mapping local="$PROJECT_DIR$/.run" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/.gitignore" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/README.md" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/angular.json" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/browserslist" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/e2e/protractor.conf.js" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/e2e/src/app.e2e-spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/e2e/src/app.po.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/e2e/tsconfig.e2e.json" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/package-lock.json" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/package.json" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/app.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/app.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/app.server.module.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/counter/counter.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/counter/counter.component.spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/counter/counter.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/fetch-data/fetch-data.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/home/home.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/home/home.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.css" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/login/login-routing.module.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/login/login.module.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.css" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/nav-menu/nav-menu.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/shared/right-navigation/right-navigation.component.css" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/shared/right-navigation/right-navigation.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/shared/right-navigation/right-navigation.component.scss" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/shared/right-navigation/right-navigation.component.spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/shared/right-navigation/right-navigation.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/shared/shared-routing.module.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/shared/shared.module.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.css" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.scss" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/home/home.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/home/home.component.scss" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/home/home.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.scss" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.css" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.scss" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.scss" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/reports/reports.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/reports/reports.component.scss" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/reports/reports.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/roles/roles.component.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/roles/roles.component.scss" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/roles/roles.component.spec.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/roles/roles.component.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/startup-routing.module.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/app/startup/startup.module.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/.gitkeep" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Forms Export.xlsx" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Logo.zip" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Logo/Logo.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Logo/Logo@2x.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/Logo/cropped-logo.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/fullscreen.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/notification.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/right_panel_image.zip" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/right_panel_image/right_panel_image.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/right_panel_image/right_panel_image@2x.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/search-icon.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/settings.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/switch.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/woman-photo.png" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/assets/Static/Videos/exercise.mp4" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/custom-theme.scss" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/environments/environment.prod.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/environments/environment.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/index.html" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/karma.conf.js" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/main.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/polyfills.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/styles.css" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/test.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/tsconfig.app.json" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/tsconfig.server.json" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/tsconfig.spec.json" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/src/tslint.json" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/tsconfig.json" web="/" />
+            <mapping local="$PROJECT_DIR$/ClientApp/tslint.json" web="/" />
+            <mapping local="$PROJECT_DIR$/Controllers/WeatherForecastController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/Pages/Error.cshtml" web="/" />
+            <mapping local="$PROJECT_DIR$/Pages/Error.cshtml.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/Pages/_ViewImports.cshtml" web="/" />
+            <mapping local="$PROJECT_DIR$/Program.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/Properties/launchSettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/SafaGymApplication.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/SafaGymApplication.sln" web="/" />
+            <mapping local="$PROJECT_DIR$/Startup.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/WeatherForecast.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/appsettings.Development.json" web="/" />
+            <mapping local="$PROJECT_DIR$/appsettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/global.json" web="/" />
+            <mapping local="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/SafaGymApplication.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/SafaGymApplication.RazorAssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/wwwroot/favicon.ico" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

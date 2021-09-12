@@ -1,1 +1,137 @@
-<p>attendance works!</p>
+<section class="attendance-component mt-60 pl-15 pr-15">
+  <app-right-navigation [headingVar]="passingHeading">
+
+  </app-right-navigation>
+
+  <div class="row no-gutters clearfix mt-60 table-view">
+
+    <div class="container">
+
+      <div class="row no-gutters mt-30 pl-15 pr-15 positional-table-filter">
+        <div class="">
+          <span class="text-left">List of Today’s Attendance</span>
+        </div>
+
+        <div class="">
+          <span class="text-left">
+            <mat-form-field appearance="fill">
+  <mat-label>Enter a date range</mat-label>
+  <mat-date-range-input [rangePicker]="picker">
+    <input matStartDate placeholder="Start date">
+    <input matEndDate placeholder="End date">
+  </mat-date-range-input>
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-date-range-picker #picker></mat-date-range-picker>
+</mat-form-field>
+
+          </span>
+          <span class="text-right">
+            <select class="filter-table-selection">
+              <option value="01">
+                Today
+              </option>
+
+               <option selected value="02">
+                Yesterday
+              </option>
+            </select>
+          </span>
+        </div>
+
+
+      </div>
+
+
+      <div class="table-responsive row no-gutters mt-30">
+        <table class="table table-borderless table-attendence-design">
+          <thead>
+          <tr>
+            <th scope="col">Member ID <span class="sorting-icon"></span></th>
+            <th scope="col">Name</th>
+            <th scope="col">Reg Date</th>
+
+            <th scope="col">Package DD</th>
+            <th scope="col">Attendance Data</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">001</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+
+          <tr>
+            <th scope="row">002</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+          <tr>
+            <th scope="row">003</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+          <tr>
+            <th scope="row">004</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+          <tr>
+            <th scope="row">005</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+          <tr>
+            <th scope="row">006</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+          <tr>
+            <th scope="row">007</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+          <tr>
+            <th scope="row">008</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+          <tr>
+            <th scope="row">009</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+          <tr>
+            <th scope="row">010</th>
+            <td>Kazi Akbar</td>
+            <td>21-Aug-1994</td>
+            <td>21-Aug</td>
+            <td>Exclusinve Package</td>
+          </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+</section>

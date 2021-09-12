@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e8916cfd-7754-419f-a624-cca5de1cc3a6" name="ftp.codeaffiner.com" url="http://89.39.104.94">
+        <fileTransfer rootFolder="/httpdocs" host="89.39.104.94" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

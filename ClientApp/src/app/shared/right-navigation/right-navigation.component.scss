@@ -1,0 +1,96 @@
+﻿//colors
+$black: #000000;
+$color_white_approx: #fdfdfd;
+$color_nobel_approx: #b5b5b5;
+
+//fonts
+$font_0: Helvetica;
+$font_1: sans-serif;
+
+//urls
+$url_0: url(src/assets/Static/Images/fullscreen.png);
+$url_1: url(src/assets/Static/Images/switch.png);
+$url_2: url(src/assets/Static/Images/notification.png);
+$url_3: url(src/assets/Static/Images/settings.png);
+
+
+.right-navigation-bar-style {
+  text-align: left;
+  font-weight: 700;
+  font-size: 27px;
+  font-family: $font_0, $font_1;
+  letter-spacing: 0;
+  color: $black;
+  opacity: 1;
+}
+.search-right-navigation-area {
+  background: $color_white_approx 0 0 no-repeat padding-box;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  box-shadow: 0 0 12px #00000029;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 40px;
+  height: 50px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: $font_0, $font_1;
+  letter-spacing: 0;
+  width: 330px;
+  border: 0 solid transparent;
+  padding: 15px 30px 15px 20px;
+  color: $color_nobel_approx;
+  outline: 0;
+  &:focus {
+    outline: 0;
+  }
+}
+.icon-right-navigation {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  cursor: pointer;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.fullscreen-btn {
+  background-image: $url_0;
+}
+.switch-btn {
+  background-image: $url_1;
+}
+.notification-btn {
+  background-image: $url_2;
+}
+.settings-btn {
+  background-image: $url_3;
+}
+
+.positional-section-navigation
+{
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.positional-icons
+{
+  align-self: center;
+  margin-top: 15px;
+}
+
+.icon-right-navigation a
+{
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-right-navigation a
+{
+  display: flex;
+}

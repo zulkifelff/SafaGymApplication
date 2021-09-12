@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {FormControl, FormGroup} from "@angular/forms";
 
 @Component({
   selector: 'app-attendance',
@@ -6,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./attendance.component.scss']
 })
 export class AttendanceComponent implements OnInit {
+  passingHeading: string = 'Attendance';
+  range = new FormGroup({
+    start: new FormControl(),
+    end: new FormControl()
+  });
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

@@ -1,10 +1,10 @@
 <!--<p>index works!</p>-->
 
 <nav id="sidebar" class="">
-  <div class="custom-menu">
-    <button (click)="toggleActivation($event)" type="button" id="sidebarCollapse" class="btn btn-primary">
-    </button>
-  </div>
+<!--  <div class="custom-menu">-->
+<!--    <button (click)="toggleActivation($event)" type="button" id="sidebarCollapse" class="btn btn-primary">-->
+<!--    </button>-->
+<!--  </div>-->
   <div class="img bg-wrap text-center py-4 "
        style="">
     <div class="user-logo mt-40">
@@ -12,23 +12,23 @@
     </div>
   </div>
   <ul class="list-unstyled components mb-5">
-    <li class="active">
-      <a href="#"> Home</a>
+    <li routerLinkActive="active">
+      <a [routerLink]="['home']"> Home</a>
     </li>
-    <li>
-      <a href="#"> Members</a>
+    <li routerLinkActive="active">
+      <a [routerLink]="['members']"> Members</a>
     </li>
-    <li>
-      <a href="#">Attendance</a>
+    <li routerLinkActive="active">
+      <a [routerLink]="['attendance']">Attendance</a>
     </li>
-    <li>
-      <a href="#">User Roles</a>
+    <li routerLinkActive="active">
+      <a [routerLink]="['roles']">User Roles</a>
     </li>
-    <li>
-      <a href="#">Packages</a>
+    <li routerLinkActive="active">
+      <a [routerLink]="['package']">Packages</a>
     </li>
-    <li>
-      <a href="#">Reports</a>
+    <li routerLinkActive="active">
+      <a [routerLink]="['reports']">Reports</a>
     </li>
     <!--    <li>-->
     <!--      <a href="#">Sign Out</a>-->

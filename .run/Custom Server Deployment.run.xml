@@ -1,0 +1,8 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Code Affiner Deployment Main" type="DotNetPublishAndUpload" factoryName="Publish to custom server" singleton="false">
+    <riderPublish configuration="Release" platform="Any CPU" runtime="Portable" server_id="e8916cfd-7754-419f-a624-cca5de1cc3a6" target_framework="netcoreapp3.1" uuid_high="-101872230588658532" uuid_low="-7214840996106553790" />
+    <method v="2">
+      <option name="CleanSolution" enabled="true" />
+    </method>
+  </configuration>
+</component>

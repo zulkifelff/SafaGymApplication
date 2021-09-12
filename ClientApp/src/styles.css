@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
+/*@import "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";*/
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
@@ -74,3 +75,44 @@ code {
 {
     width:100%;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+app-sidenav { display: flex; }
+mat-drawer-container { flex: 1 1 auto; }
+
+.pl-15
+{
+  padding-left: 15px;
+}
+
+.pr-15
+{
+  padding-right: 15px;
+
+}
+
+
+
+.filter-table-selection
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0;
+  color: #B5B5B5;
+  border: 0 solid transparent;
+  outline: 0;
+}
+
+
+.positional-table-filter
+{
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

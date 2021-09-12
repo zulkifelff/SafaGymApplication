@@ -1,6 +1,0 @@
-﻿<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Publish SafaGymApplication to folder" type="DotNetFolderPublish" factoryName="Publish to folder" singleton="false">
-    <riderPublish configuration="Release" delete_existing_files="true" platform="Any CPU" runtime="Portable" target_folder="$PROJECT_DIR$/bin/Release/netcoreapp3.1/publish" target_framework="netcoreapp3.1" uuid_high="-101872230588658532" uuid_low="-7214840996106553790" />
-    <method v="2" />
-  </configuration>
-</component>
