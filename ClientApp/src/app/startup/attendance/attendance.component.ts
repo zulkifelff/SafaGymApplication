@@ -19,4 +19,8 @@ export class AttendanceComponent implements OnInit {
   ngOnInit() {
   }
 
+  dateRangeChange(dateRangeStart: HTMLInputElement, dateRangeEnd: HTMLInputElement) {
+    console.log(dateRangeStart.value);
+    console.log(dateRangeEnd.value);
+  }
 }

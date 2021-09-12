@@ -16,15 +16,16 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import {PaginationModule} from "ngx-bootstrap/pagination";
 
 @NgModule({
   declarations: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent],
-  imports: [
-    CommonModule,
-    StartupRoutingModule,
-    MatInputModule,MatNativeDateModule,
-    MatSidenavModule, FormsModule, ReactiveFormsModule, SharedModule, MatFormFieldModule, MatDatepickerModule
-  ],
+    imports: [
+        CommonModule,
+        StartupRoutingModule,
+        MatInputModule, MatNativeDateModule,
+        MatSidenavModule, FormsModule, ReactiveFormsModule, SharedModule, MatFormFieldModule, MatDatepickerModule, PaginationModule
+    ],
   exports: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent]
 })
 export class StartupModule {

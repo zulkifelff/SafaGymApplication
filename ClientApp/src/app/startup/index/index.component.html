@@ -6,8 +6,10 @@
   <mat-sidenav
     mode="side"
     #sidenav
+    position="start"
     [fixedInViewport]="widthFalse"
     [fixedTopGap]="options.value.top"
+    [fixedBottomGap]="options.value.bottom"
     opened>
     <app-menu></app-menu>
   </mat-sidenav>
