@@ -7,5 +7,207 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAF1QQg2iNRkii/13s18OkUwAAAAACAAAAAAAQZgAAAAEAACAAAAD9UIybECKIglkIRitYeAtZVQ+p3wRrUfl8P047IK4T5gAAAAAOgAAAAAIAACAAAAC6n2M91gV0942Oj9jYb93WgYzMk7/lNxxFcumemwRwHCAAAAAI/AQgdRldZfzvPp5QqafqGx/ivduqaIICPM/B6x9IC0AAAABFnSKZ0r5tbzN+MkuiXFvtaxRIfFNZ6Yev/qj++KF2/UsiFfU9XamB/whJTdfoGEC7ta+Zc9gRq1UqEBx1vBZ5</EncryptedPassword>
+    <_PublishTargetUrl>ftp://89.39.104.94/gym.codeaffiner.com</_PublishTargetUrl>
+    <History>True|2021-09-12T18:56:44.4221970Z;</History>
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>08/26/2021 15:34:25</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>08/26/2021 15:34:25</publishTime>
+    </File>
+    <File Include="ClientApp/dist/207-es2015.942a220ef2420c39a627.js">
+      <publishTime>09/12/2021 23:12:16</publishTime>
+    </File>
+    <File Include="ClientApp/dist/207-es5.942a220ef2420c39a627.js">
+      <publishTime>09/12/2021 23:12:15</publishTime>
+    </File>
+    <File Include="ClientApp/dist/3rdpartylicenses.txt">
+      <publishTime>09/12/2021 23:48:28</publishTime>
+    </File>
+    <File Include="ClientApp/dist/456-es2015.d5f6207c01363cffcde3.js">
+      <publishTime>09/12/2021 23:10:35</publishTime>
+    </File>
+    <File Include="ClientApp/dist/456-es5.d5f6207c01363cffcde3.js">
+      <publishTime>09/12/2021 23:10:35</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/fullscreen.png">
+      <publishTime>09/12/2021 23:20:55</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/Logo/cropped-logo.png">
+      <publishTime>09/05/2021 14:37:35</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/Logo/Logo%402x.png">
+      <publishTime>09/05/2021 13:11:59</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/Logo/Logo.png">
+      <publishTime>09/05/2021 13:11:59</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/notification.png">
+      <publishTime>09/12/2021 23:20:55</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/right_panel_image/right_panel_image%402x.png">
+      <publishTime>09/05/2021 13:07:56</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/right_panel_image/right_panel_image.png">
+      <publishTime>09/05/2021 13:07:56</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/search-icon.png">
+      <publishTime>09/12/2021 23:20:55</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/settings.png">
+      <publishTime>09/12/2021 23:20:55</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/switch.png">
+      <publishTime>09/12/2021 23:20:55</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Images/woman-photo.png">
+      <publishTime>09/05/2021 15:31:06</publishTime>
+    </File>
+    <File Include="ClientApp/dist/assets/Static/Videos/exercise.mp4">
+      <publishTime>09/05/2021 12:00:25</publishTime>
+    </File>
+    <File Include="ClientApp/dist/index.html">
+      <publishTime>09/12/2021 23:48:29</publishTime>
+    </File>
+    <File Include="ClientApp/dist/main-es2015.d3076310306e85e7aff9.js">
+      <publishTime>09/12/2021 23:12:20</publishTime>
+    </File>
+    <File Include="ClientApp/dist/main-es5.d3076310306e85e7aff9.js">
+      <publishTime>09/12/2021 23:12:19</publishTime>
+    </File>
+    <File Include="ClientApp/dist/polyfills-es2015.8246bd1c291623eb3011.js">
+      <publishTime>09/12/2021 23:10:33</publishTime>
+    </File>
+    <File Include="ClientApp/dist/polyfills-es5.80603827ccf13cf37550.js">
+      <publishTime>09/12/2021 23:12:13</publishTime>
+    </File>
+    <File Include="ClientApp/dist/runtime-es2015.65e1992843b188797034.js">
+      <publishTime>09/12/2021 23:10:33</publishTime>
+    </File>
+    <File Include="ClientApp/dist/runtime-es5.65e1992843b188797034.js">
+      <publishTime>09/12/2021 23:10:33</publishTime>
+    </File>
+    <File Include="ClientApp/dist/styles.dcbabdec436b50cdd659.css">
+      <publishTime>09/12/2021 23:48:28</publishTime>
+    </File>
+    <File Include="global.json">
+      <publishTime>08/26/2021 15:34:27</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.NodeServices.dll">
+      <publishTime>06/18/2021 23:32:48</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.SpaServices.dll">
+      <publishTime>06/18/2021 23:39:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.SpaServices.Extensions.dll">
+      <publishTime>06/18/2021 23:39:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>06/16/2021 11:23:48</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Binder.dll">
+      <publishTime>06/16/2021 11:24:02</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.dll">
+      <publishTime>06/16/2021 11:23:52</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>06/16/2021 11:23:56</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>06/16/2021 11:23:52</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <publishTime>06/16/2021 11:24:12</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileProviders.Physical.dll">
+      <publishTime>06/16/2021 11:23:50</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.FileSystemGlobbing.dll">
+      <publishTime>06/16/2021 11:24:36</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>06/16/2021 11:24:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Configuration.dll">
+      <publishTime>06/16/2021 11:26:10</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Console.dll">
+      <publishTime>06/16/2021 11:26:12</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>06/16/2021 11:24:36</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.ConfigurationExtensions.dll">
+      <publishTime>06/16/2021 11:25:34</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>06/16/2021 11:23:54</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>06/16/2021 11:24:10</publishTime>
+    </File>
+    <File Include="Namotion.Reflection.dll">
+      <publishTime>08/06/2021 13:53:52</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="NJsonSchema.dll">
+      <publishTime>08/06/2021 14:18:58</publishTime>
+    </File>
+    <File Include="NJsonSchema.Yaml.dll">
+      <publishTime>08/06/2021 14:20:14</publishTime>
+    </File>
+    <File Include="NSwag.Annotations.dll">
+      <publishTime>08/06/2021 18:48:18</publishTime>
+    </File>
+    <File Include="NSwag.AspNetCore.dll">
+      <publishTime>08/06/2021 18:48:42</publishTime>
+    </File>
+    <File Include="NSwag.Core.dll">
+      <publishTime>08/06/2021 18:48:10</publishTime>
+    </File>
+    <File Include="NSwag.Core.Yaml.dll">
+      <publishTime>08/06/2021 18:48:28</publishTime>
+    </File>
+    <File Include="NSwag.Generation.AspNetCore.dll">
+      <publishTime>08/06/2021 18:48:30</publishTime>
+    </File>
+    <File Include="NSwag.Generation.dll">
+      <publishTime>08/06/2021 18:48:28</publishTime>
+    </File>
+    <File Include="SafaGymApplication.deps.json">
+      <publishTime>09/12/2021 23:47:03</publishTime>
+    </File>
+    <File Include="SafaGymApplication.dll">
+      <publishTime>09/12/2021 23:47:02</publishTime>
+    </File>
+    <File Include="SafaGymApplication.exe">
+      <publishTime>09/12/2021 23:47:02</publishTime>
+    </File>
+    <File Include="SafaGymApplication.pdb">
+      <publishTime>09/12/2021 23:47:02</publishTime>
+    </File>
+    <File Include="SafaGymApplication.runtimeconfig.json">
+      <publishTime>09/12/2021 23:11:26</publishTime>
+    </File>
+    <File Include="SafaGymApplication.Views.dll">
+      <publishTime>09/12/2021 23:47:02</publishTime>
+    </File>
+    <File Include="SafaGymApplication.Views.pdb">
+      <publishTime>09/12/2021 23:47:02</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>09/12/2021 23:48:30</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>08/26/2021 15:34:23</publishTime>
+    </File>
+    <File Include="YamlDotNet.dll">
+      <publishTime>01/15/2021 22:19:22</publishTime>
+    </File>
+  </ItemGroup>
 </Project>

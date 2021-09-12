@@ -10,18 +10,10 @@
   <component name="ChangeListManager">
     <list default="true" id="744d3b4e-f2e8-411d-a556-8f192abe9b81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SafaGymApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SafaGymApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/SafaGymApplication/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SafaGymApplication/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/right-navigation/right-navigation.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/shared/right-navigation/right-navigation.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/attendance/attendance.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/startup.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/startup.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/PublishProfiles/gym.codeaffiner.com.pubxml" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/PublishProfiles/gym.codeaffiner.com.pubxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/PublishProfiles/gym.codeaffiner.com.pubxml.user" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/PublishProfiles/gym.codeaffiner.com.pubxml.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
