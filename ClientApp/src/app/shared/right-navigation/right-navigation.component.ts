@@ -21,8 +21,11 @@ export class RightNavigationComponent implements OnInit {
   triggerFullScreen($event: MouseEvent) {
     console.log("Entering Fullscreen")
     if (screenfull.isEnabled) {
-      screenfull.request().then(r => console.log(r));
+      if (screenfull.isEnabled) {
+        screenfull.toggle().then(r => console.log(r));
+      }
     }
+
 
   }
 
