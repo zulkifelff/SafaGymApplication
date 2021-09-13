@@ -35,7 +35,7 @@ export class LoginPageComponent implements OnInit {
 
     // display form values on success
     alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.LoginFormBuilder.value, null, 4));
-    this.router.navigate(['/startup'])
+    this.router.navigate(['/startup/home'])
 
   }
 }

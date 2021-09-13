@@ -17,6 +17,7 @@ import {MatInputModule} from "@angular/material/input";
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {PaginationModule} from "ngx-bootstrap/pagination";
+import {TooltipModule} from "ngx-bootstrap/tooltip";
 
 @NgModule({
   declarations: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent],
@@ -24,7 +25,7 @@ import {PaginationModule} from "ngx-bootstrap/pagination";
         CommonModule,
         StartupRoutingModule,
         MatInputModule, MatNativeDateModule,
-        MatSidenavModule, FormsModule, ReactiveFormsModule, SharedModule, MatFormFieldModule, MatDatepickerModule, PaginationModule
+        MatSidenavModule, FormsModule, ReactiveFormsModule, SharedModule, MatFormFieldModule, MatDatepickerModule, PaginationModule, TooltipModule
     ],
   exports: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent]
 })

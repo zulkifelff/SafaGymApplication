@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./package.component.scss']
 })
 export class PackageComponent implements OnInit {
+  passingHeading: string="Packages";
 
   constructor() { }
 

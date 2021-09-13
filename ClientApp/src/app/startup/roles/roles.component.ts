@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./roles.component.scss']
 })
 export class RolesComponent implements OnInit {
+  passingHeading='User Roles';
 
   constructor() { }
 

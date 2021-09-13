@@ -24,14 +24,22 @@
         <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
         <None Remove="DesignAssets\**" />
         <Content Remove="DesignAssets\**" />
+        <None Remove="ClientApp\e2e\**" />
+        <Content Remove="ClientApp\e2e\**" />
     </ItemGroup>
 
     <ItemGroup>
       <Compile Remove="DesignAssets\**" />
+      <Compile Remove="ClientApp\e2e\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="DesignAssets\**" />
+      <EmbeddedResource Remove="ClientApp\e2e\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="ClientApp\e2e\tsconfig.e2e.json" />
     </ItemGroup>
 
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
