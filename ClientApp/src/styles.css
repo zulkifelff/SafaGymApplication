@@ -235,9 +235,7 @@ body {
   border-radius: 32px;
 }
 
-.table-attendence-design {
 
-}
 
 
 .table.table-attendence-design thead th {
@@ -402,4 +400,123 @@ body {
   background: #CAA33E 0% 0% no-repeat padding-box;
   border: 1px solid #EABF51;
   border-radius: 11px;
+}
+
+
+.positional-table-filter-text
+{
+  text-align: left;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  line-height: 1rem;
+}
+
+.exclusive-link-style
+{
+  font-weight: normal;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  letter-spacing: 0px;
+  color: #B5B5B5;
+  line-height: 1rem;
+}
+
+.true-stats-text-style
+{
+  font-weight: bold;
+  font-size: 54px;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0px;
+}
+
+.green-coloring
+{
+  color: #5B9B10;
+}
+
+.black-coloring
+{
+  color: #000000;
+}
+
+
+.red-coloring
+{
+  color: #C13A3A;
+}
+
+
+.true-stat-main-heading
+{
+  font-size: 14px !important;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.true-stat-main-subheading
+{
+  font-size: 14px !important;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif !important;
+  letter-spacing: 0px;
+  color: #B5B5B5;
+}
+
+.true-stats .media
+{
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.true-stats .media
+{
+  padding: 34px 10px;
+}
+
+.individual-stats-section
+{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 12px #00000029;
+  border-radius: 32px;
+}
+
+
+.safa-gym-field-style
+{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 11px;
+
+  text-align: left;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0;
+  padding: 18px 30px;
+  color: #000000;
+}
+
+
+.safa-gym-field-style
+{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 11px;
+
+  text-align: left;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0;
+  padding: 18px 30px;
+  color: #000000;
 }

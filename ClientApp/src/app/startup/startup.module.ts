@@ -18,16 +18,17 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {PaginationModule} from "ngx-bootstrap/pagination";
 import {TooltipModule} from "ngx-bootstrap/tooltip";
+import { AdditionComponent } from './membership/addition/addition.component';
 
 @NgModule({
-  declarations: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent],
+  declarations: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent, AdditionComponent],
     imports: [
         CommonModule,
         StartupRoutingModule,
         MatInputModule, MatNativeDateModule,
         MatSidenavModule, FormsModule, ReactiveFormsModule, SharedModule, MatFormFieldModule, MatDatepickerModule, PaginationModule, TooltipModule
     ],
-  exports: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent]
+  exports: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent, AdditionComponent]
 })
 export class StartupModule {
 }

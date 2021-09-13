@@ -78,13 +78,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/05/2021 12:00:25</publishTime>
     </File>
     <File Include="ClientApp/dist/index.html">
-      <publishTime>09/13/2021 11:54:02</publishTime>
+      <publishTime>09/13/2021 12:18:18</publishTime>
     </File>
     <File Include="ClientApp/dist/main-es2015.4439fb4be20100624c89.js">
       <publishTime>09/12/2021 23:59:38</publishTime>
     </File>
     <File Include="ClientApp/dist/main-es2015.4439fb4be20100624c89.js.map">
       <publishTime>09/12/2021 23:59:38</publishTime>
+    </File>
+    <File Include="ClientApp/dist/main-es2015.a867f7d454c60e210313.js">
+      <publishTime>09/13/2021 12:17:56</publishTime>
+    </File>
+    <File Include="ClientApp/dist/main-es2015.a867f7d454c60e210313.js.map">
+      <publishTime>09/13/2021 12:17:56</publishTime>
     </File>
     <File Include="ClientApp/dist/main-es2015.d3076310306e85e7aff9.js">
       <publishTime>09/12/2021 23:12:20</publishTime>
@@ -94,6 +100,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="ClientApp/dist/main-es5.4439fb4be20100624c89.js.map">
       <publishTime>09/12/2021 23:59:38</publishTime>
+    </File>
+    <File Include="ClientApp/dist/main-es5.a867f7d454c60e210313.js">
+      <publishTime>09/13/2021 12:17:56</publishTime>
+    </File>
+    <File Include="ClientApp/dist/main-es5.a867f7d454c60e210313.js.map">
+      <publishTime>09/13/2021 12:17:56</publishTime>
     </File>
     <File Include="ClientApp/dist/main-es5.d3076310306e85e7aff9.js">
       <publishTime>09/12/2021 23:12:19</publishTime>
@@ -116,6 +128,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ClientApp/dist/polyfills-es5.80603827ccf13cf37550.js">
       <publishTime>09/12/2021 23:12:13</publishTime>
     </File>
+    <File Include="ClientApp/dist/runtime-es2015.37d59cd257d59c6285d3.js">
+      <publishTime>09/13/2021 12:17:54</publishTime>
+    </File>
+    <File Include="ClientApp/dist/runtime-es2015.37d59cd257d59c6285d3.js.map">
+      <publishTime>09/13/2021 12:17:54</publishTime>
+    </File>
     <File Include="ClientApp/dist/runtime-es2015.65e1992843b188797034.js">
       <publishTime>09/12/2021 23:10:33</publishTime>
     </File>
@@ -130,6 +148,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="ClientApp/dist/runtime-es2015.dc83259d4d05a20eef7d.js.map">
       <publishTime>09/12/2021 23:59:37</publishTime>
+    </File>
+    <File Include="ClientApp/dist/runtime-es5.37d59cd257d59c6285d3.js">
+      <publishTime>09/13/2021 12:17:54</publishTime>
+    </File>
+    <File Include="ClientApp/dist/runtime-es5.37d59cd257d59c6285d3.js.map">
+      <publishTime>09/13/2021 12:17:54</publishTime>
     </File>
     <File Include="ClientApp/dist/runtime-es5.65e1992843b188797034.js">
       <publishTime>09/12/2021 23:10:33</publishTime>
@@ -152,6 +176,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ClientApp/dist/src_app_login_login_module_ts-es2015.3c45219fe52372ef9216.js.map">
       <publishTime>09/12/2021 23:59:39</publishTime>
     </File>
+    <File Include="ClientApp/dist/src_app_login_login_module_ts-es2015.4838d0e5b4edf62881e4.js">
+      <publishTime>09/13/2021 12:17:56</publishTime>
+    </File>
+    <File Include="ClientApp/dist/src_app_login_login_module_ts-es2015.4838d0e5b4edf62881e4.js.map">
+      <publishTime>09/13/2021 12:17:56</publishTime>
+    </File>
     <File Include="ClientApp/dist/src_app_login_login_module_ts-es2015.dc2ab3b11ac3d1cc5a71.js">
       <publishTime>09/13/2021 11:53:56</publishTime>
     </File>
@@ -164,11 +194,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ClientApp/dist/src_app_login_login_module_ts-es5.3c45219fe52372ef9216.js.map">
       <publishTime>09/12/2021 23:59:38</publishTime>
     </File>
+    <File Include="ClientApp/dist/src_app_login_login_module_ts-es5.4838d0e5b4edf62881e4.js">
+      <publishTime>09/13/2021 12:17:56</publishTime>
+    </File>
+    <File Include="ClientApp/dist/src_app_login_login_module_ts-es5.4838d0e5b4edf62881e4.js.map">
+      <publishTime>09/13/2021 12:17:56</publishTime>
+    </File>
     <File Include="ClientApp/dist/src_app_login_login_module_ts-es5.dc2ab3b11ac3d1cc5a71.js">
       <publishTime>09/13/2021 11:53:56</publishTime>
     </File>
     <File Include="ClientApp/dist/src_app_login_login_module_ts-es5.dc2ab3b11ac3d1cc5a71.js.map">
       <publishTime>09/13/2021 11:53:56</publishTime>
+    </File>
+    <File Include="ClientApp/dist/src_app_startup_startup_module_ts-es2015.0a47d12046c36623ce4e.js">
+      <publishTime>09/13/2021 12:18:17</publishTime>
+    </File>
+    <File Include="ClientApp/dist/src_app_startup_startup_module_ts-es2015.0a47d12046c36623ce4e.js.map">
+      <publishTime>09/13/2021 12:18:17</publishTime>
     </File>
     <File Include="ClientApp/dist/src_app_startup_startup_module_ts-es2015.b85adab4b23ebc0338c9.js">
       <publishTime>09/12/2021 23:59:57</publishTime>
@@ -182,6 +224,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ClientApp/dist/src_app_startup_startup_module_ts-es2015.c16056cf3023d4bb3397.js.map">
       <publishTime>09/13/2021 11:54:01</publishTime>
     </File>
+    <File Include="ClientApp/dist/src_app_startup_startup_module_ts-es5.0a47d12046c36623ce4e.js">
+      <publishTime>09/13/2021 12:18:13</publishTime>
+    </File>
+    <File Include="ClientApp/dist/src_app_startup_startup_module_ts-es5.0a47d12046c36623ce4e.js.map">
+      <publishTime>09/13/2021 12:18:13</publishTime>
+    </File>
     <File Include="ClientApp/dist/src_app_startup_startup_module_ts-es5.b85adab4b23ebc0338c9.js">
       <publishTime>09/12/2021 23:59:55</publishTime>
     </File>
@@ -193,6 +241,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="ClientApp/dist/src_app_startup_startup_module_ts-es5.c16056cf3023d4bb3397.js.map">
       <publishTime>09/13/2021 11:54:00</publishTime>
+    </File>
+    <File Include="ClientApp/dist/styles.5c66875d051a6bf5348b.css">
+      <publishTime>09/13/2021 12:17:52</publishTime>
+    </File>
+    <File Include="ClientApp/dist/styles.5c66875d051a6bf5348b.css.map">
+      <publishTime>09/13/2021 12:17:52</publishTime>
     </File>
     <File Include="ClientApp/dist/styles.dcbabdec436b50cdd659.css">
       <publishTime>09/13/2021 11:53:54</publishTime>
@@ -300,28 +354,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/06/2021 18:48:28</publishTime>
     </File>
     <File Include="SafaGymApplication.deps.json">
-      <publishTime>09/13/2021 11:53:00</publishTime>
+      <publishTime>09/13/2021 12:16:03</publishTime>
     </File>
     <File Include="SafaGymApplication.dll">
-      <publishTime>09/13/2021 11:52:58</publishTime>
+      <publishTime>09/13/2021 12:16:01</publishTime>
     </File>
     <File Include="SafaGymApplication.exe">
-      <publishTime>09/13/2021 11:52:58</publishTime>
+      <publishTime>09/13/2021 12:16:01</publishTime>
     </File>
     <File Include="SafaGymApplication.pdb">
-      <publishTime>09/13/2021 11:52:58</publishTime>
+      <publishTime>09/13/2021 12:16:01</publishTime>
     </File>
     <File Include="SafaGymApplication.runtimeconfig.json">
       <publishTime>09/12/2021 23:11:26</publishTime>
     </File>
     <File Include="SafaGymApplication.Views.dll">
-      <publishTime>09/13/2021 11:52:59</publishTime>
+      <publishTime>09/13/2021 12:16:03</publishTime>
     </File>
     <File Include="SafaGymApplication.Views.pdb">
-      <publishTime>09/13/2021 11:52:59</publishTime>
+      <publishTime>09/13/2021 12:16:03</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>09/13/2021 11:54:02</publishTime>
+      <publishTime>09/13/2021 12:18:18</publishTime>
     </File>
     <File Include="wwwroot/favicon.ico">
       <publishTime>08/26/2021 15:34:23</publishTime>

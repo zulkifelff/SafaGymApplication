@@ -7,6 +7,7 @@ import {RolesComponent} from "./roles/roles.component";
 import {PackageComponent} from "./package/package.component";
 import {ReportsComponent} from "./reports/reports.component";
 import {HomeComponent} from "./home/home.component";
+import {AdditionComponent} from "./membership/addition/addition.component";
 
 
 const routes: Routes = [{
@@ -16,7 +17,12 @@ const routes: Routes = [{
     {path: 'members', component: MembersComponent},
     {path: 'roles', component: RolesComponent},
     {path: 'package', component: PackageComponent},
-    {path: 'reports', component: ReportsComponent}
+    {path: 'reports', component: ReportsComponent},
+    {
+      path:'membership',children:[
+        {path: 'addition', component: AdditionComponent},
+      ]
+    }
   ]
 }];
 
