@@ -79,7 +79,8 @@ html, body {
 
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Helvetica, sans-serif;
+  /*font-family: Roboto, "Helvetica Neue", sans-serif;*/
 }
 
 app-sidenav {

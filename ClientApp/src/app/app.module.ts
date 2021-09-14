@@ -25,6 +25,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     FormsModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent, pathMatch: 'full'},
+      {path:"chelsea",component:FetchDataComponent,pathMatch:'full'},
       {
         path: 'login',
         loadChildren: () => import('./../app/login/login.module').then(m => m.LoginModule)

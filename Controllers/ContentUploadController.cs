@@ -21,7 +21,7 @@ namespace SafaGymApplication.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> OnPostUploadAsync(List<IFormFile> files)
+        public async Task<IActionResult> Post(List<IFormFile> files)
         {
             string webRootPath = _hostingEnvironment.WebRootPath;
             string contentRootPath = _hostingEnvironment.ContentRootPath;
@@ -56,7 +56,7 @@ namespace SafaGymApplication.Controllers
                 }
             }
 
-            return Ok(new { count = files.Count, size, fileUpload = true, filePath = returningURL });
+            return Ok(new { count = files.Count, size, fileUpload = true, filePath = returningURL.ToString() });
         }
     }
 }
