@@ -21,22 +21,26 @@
     <ItemGroup>
         <!-- Don't publish the SPA source files, but do show them in the project files list -->
         <Content Remove="$(SpaRoot)**" />
+        <Content Remove="wwwroot\uploads\**" />
         <None Remove="$(SpaRoot)**" />
         <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
         <None Remove="DesignAssets\**" />
         <Content Remove="DesignAssets\**" />
         <None Remove="ClientApp\e2e\**" />
+        <None Remove="wwwroot\uploads\**" />
         <Content Remove="ClientApp\e2e\**" />
     </ItemGroup>
 
     <ItemGroup>
       <Compile Remove="DesignAssets\**" />
       <Compile Remove="ClientApp\e2e\**" />
+      <Compile Remove="wwwroot\uploads\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="DesignAssets\**" />
       <EmbeddedResource Remove="ClientApp\e2e\**" />
+      <EmbeddedResource Remove="wwwroot\uploads\**" />
     </ItemGroup>
 
     <ItemGroup>
