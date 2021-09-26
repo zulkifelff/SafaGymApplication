@@ -7,7 +7,10 @@ import {MatSidenav} from "@angular/material/sidenav";
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',
-  styleUrls: ['./index.component.scss']
+  styleUrls: ['./index.component.scss'],
+  host: {
+    class:'IndexComponentClass'
+  }
 })
 export class IndexComponent implements OnInit {
 

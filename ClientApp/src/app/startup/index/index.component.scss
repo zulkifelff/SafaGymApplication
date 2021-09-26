@@ -209,24 +209,13 @@
 //}
 
 
-:host
-{
-  width: 100%;
-  height: 100%;
-}
 
-.example-container {
+
+router-outlet + * {
+  // your rules
+  display: inline-block;
   position: absolute;
-  top: 60px;
-  bottom: 60px;
-  left: 0;
-  right: 0;
+  width: calc(100% - 365px);
 }
 
-.example-sidenav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 350px;
-  background: rgba(255, 0, 0, 0.5);
-}
+

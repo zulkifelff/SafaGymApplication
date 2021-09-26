@@ -29,6 +29,7 @@
         <None Remove="ClientApp\e2e\**" />
         <None Remove="wwwroot\uploads\**" />
         <Content Remove="ClientApp\e2e\**" />
+        <None Include="ClientApp\src\proxy.conf.json" />
     </ItemGroup>
 
     <ItemGroup>

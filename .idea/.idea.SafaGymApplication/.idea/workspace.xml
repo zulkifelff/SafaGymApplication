@@ -9,36 +9,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="744d3b4e-f2e8-411d-a556-8f192abe9b81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/shared/shared-dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientApp/src/assets/Static/Images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/uploads/DxDiag.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/uploads/Network Engineer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/uploads/Profile_Image-removebg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/uploads/Repertoire pge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/uploads/WinsHosting Payment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/uploads/fund transfer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/uploads/main-qimg-c214496e05bdf471a0cc1ec433c687f4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/uploads/main-qimg-e93e4b0189c440117d0eaf251662b511.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/uploads/profile-slack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/app.constant.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/startup.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/startup.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/proxy.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Khareedna he.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Profile Image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/Repertoire pge.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SafaGymApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SafaGymApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SafaGymApplication/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SafaGymApplication/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SafaGymApplication/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SafaGymApplication/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/login/login-page/login-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/right-navigation/right-navigation.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/shared/right-navigation/right-navigation.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/service-call.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/shared/service-call.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/membership/addition/addition.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/membership/addition/addition.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/membership/addition/addition.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/membership/addition/addition.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/shared/shared-dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/shared/shared-dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/index/index.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/members/members.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/membership/addition/addition.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/membership/addition/addition.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/menu/menu.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/package/package.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/app/startup/startup.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/app/startup/startup.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/environments/environment.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/ContentUploadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ContentUploadController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/PublishProfiles/gym.codeaffiner.com.pubxml.user" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/PublishProfiles/gym.codeaffiner.com.pubxml.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SafaGymApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SafaGymApplication.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1fef7d9b690743dc94ce29545a0e1a9c66b78/2C/Sum.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1xGGZgkOxeslIVUrcZabLCzMSxn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -114,6 +133,8 @@
       <workItem from="1630831313600" duration="7184000" />
       <workItem from="1631358455044" duration="13492000" />
       <workItem from="1631446679416" duration="16417000" />
+      <workItem from="1632162051282" duration="1500000" />
+      <workItem from="1632457262130" duration="40660000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1629974895916</created>

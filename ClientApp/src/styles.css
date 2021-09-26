@@ -83,13 +83,7 @@ body {
   /*font-family: Roboto, "Helvetica Neue", sans-serif;*/
 }
 
-app-sidenav {
-  display: flex;
-}
 
-mat-drawer-container {
-  flex: 1 1 auto;
-}
 
 .pl-15 {
   padding-left: 15px;
@@ -520,4 +514,21 @@ body {
   letter-spacing: 0;
   padding: 18px 30px;
   color: #000000;
+}
+
+
+
+
+.modal-content {
+
+  padding: 15px;
+}
+
+.mat-form-field {
+  display: block !important;
+}
+
+.example-full-width
+{
+  width: 100%;
 }

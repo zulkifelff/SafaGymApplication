@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging;
 
 namespace SafaGymApplication.Controllers
 {
@@ -13,22 +16,26 @@ namespace SafaGymApplication.Controllers
     [ApiController]
     public class ContentUploadController : ControllerBase
     {
-        private readonly IHostingEnvironment _hostingEnvironment;
+        private readonly IHostEnvironment  _hostingEnvironment;
+        private readonly ILogger _logger;
 
-        public ContentUploadController(IHostingEnvironment hostingEnvironment)
+
+
+        public ContentUploadController(IHostEnvironment  hostingEnvironment, ILogger logger)
         {
             _hostingEnvironment = hostingEnvironment ?? throw new ArgumentNullException(nameof(hostingEnvironment));
+            _logger = logger;
         }
 
         [HttpPost]
         public async Task<IActionResult> Post(List<IFormFile> files)
         {
-            string webRootPath = _hostingEnvironment.WebRootPath;
             string contentRootPath = _hostingEnvironment.ContentRootPath;
+            _logger.LogInformation(contentRootPath);
             long size = files.Sum(f => f.Length);
             string returningURL = null;
 
-            string pathDirectory = _hostingEnvironment.WebRootPath + "\\uploads\\";
+            string pathDirectory = _hostingEnvironment.ContentRootPath + "\\uploads\\";
 
             if (!Directory.Exists(pathDirectory))
                 Directory.CreateDirectory(pathDirectory);

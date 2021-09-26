@@ -14,20 +14,28 @@ import { ReportsComponent } from './reports/reports.component';
 import { HomeComponent } from './home/home.component';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
-import {MatNativeDateModule} from '@angular/material/core';
+import {MatNativeDateModule, MatOptionModule} from '@angular/material/core';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {PaginationModule} from "ngx-bootstrap/pagination";
 import {TooltipModule} from "ngx-bootstrap/tooltip";
 import { AdditionComponent } from './membership/addition/addition.component';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
+import {MatTooltipModule} from "@angular/material/tooltip";
+import {MatSelectModule} from "@angular/material/select";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatListModule} from "@angular/material/list";
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 @NgModule({
   declarations: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent, AdditionComponent],
-    imports: [
-        CommonModule,
-        StartupRoutingModule,
-        MatInputModule, MatNativeDateModule,
-        MatSidenavModule, FormsModule, ReactiveFormsModule, SharedModule, MatFormFieldModule, MatDatepickerModule, PaginationModule, TooltipModule
-    ],
+  imports: [
+    CommonModule,
+    StartupRoutingModule,ModalModule.forRoot(),
+    MatInputModule, MatNativeDateModule,
+    MatSidenavModule, FormsModule, ReactiveFormsModule, SharedModule, MatFormFieldModule, MatDatepickerModule, PaginationModule, TooltipModule, MatSnackBarModule, MatButtonModule, MatIconModule, MatTooltipModule, MatSelectModule, MatOptionModule, MatToolbarModule, MatListModule
+  ],
   exports: [IndexComponent, MenuComponent, AttendanceComponent, MembersComponent, RolesComponent, PackageComponent, ReportsComponent, HomeComponent, AdditionComponent]
 })
 export class StartupModule {

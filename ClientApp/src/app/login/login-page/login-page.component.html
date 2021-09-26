@@ -23,8 +23,8 @@
         <div class="mt-30 no-gutters text-center">
           <form [formGroup]="LoginFormBuilder" (ngSubmit)="onSubmit()">
             <div class="form-group">
-              <input formControlName="username"
-                     [ngClass]="{ 'is-invalid': Submitted && f.username.errors }"
+              <input formControlName="EmployeeNumber"
+                     [ngClass]="{ 'is-invalid': Submitted && f.EmployeeNumber.errors }"
                      type="text"
                      placeholder="Username"
                      class="form-control form-design-safa" />
@@ -32,8 +32,8 @@
 
             <div class="form-group">
               <input type="password"
-                     formControlName="password"
-                     [ngClass]="{ 'is-invalid': Submitted && f.password.errors }"
+                     formControlName="Password"
+                     [ngClass]="{ 'is-invalid': Submitted && f.Password.errors }"
                      placeholder="Password"
                      class="form-control form-design-safa" />
             </div>

@@ -38,10 +38,10 @@ export class AdditionComponent implements OnInit {
     debugger;
     this.sharedService.postFile(this.fileToUpload).subscribe((data:UploadMetaDataDTO) => {
       // do something, if upload success
-      console.log(data);
+      console.log(data.filePath);
       if(data.fileUpload)
       {
-        this.userImageSource=this.sanitizer.bypassSecurityTrustUrl(data.filePath);
+        this.userImageSource=this.sanitizer.bypassSecurityTrustUrl(data.filePath.toString());
       }
     }, error => {
       console.log(error);
